@@ -351,7 +351,7 @@ li{
         display: block;
         text-decoration: none; 
     }
-input[type=text], select, textarea {
+    input[type=text], select, textarea {
   width: 100%; 
   padding: 12px;
   border: 1px solid #ccc;
@@ -362,7 +362,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+button[type=submit] {
   background-color: #D62828;
   color: white;
   padding: 12px 20px;
@@ -373,7 +373,7 @@ input[type=submit] {
   margin-bottom: 10px;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color: #D13440;
 }
 

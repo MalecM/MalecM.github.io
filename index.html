@@ -155,20 +155,29 @@
     </div>
     <div id="contactMe"class='containerContact'>
             <p class="text-center"><span class='titleWork'>Contact Me!</span></p>
-            <form action="action_page.php">
+<form
+  action="https://formspree.io/f/xknkvkpq"
+  method="POST" name="Form1">
+  <label><span class = "contactMain">
+    Your Email:
+</span></label>
+    
+            <input type="text" id="lname" name="_replyTo" placeholder="Your Email...">
+  </label>
             <label for="fname"><span class='contactMain'>First Name</label></span>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <input type="text" id="fname" name="firstname" placeholder="Your name...">
             <label for="lname"><span class='contactMain'>Last Name</label></span>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
             <label for="reason"><span class='contactMain'>Reason</label></span>
             <select id="reason" name="reason">
+
             <option value="business">Business</option>
             <option value="question">Question/Request</option>
             <option value="other2">Other</option>
             </select>
-            <label for="subject"><span class='contactMain'>Subject</label></span>
+            <label for="subject"><span class='contactMain'>Message</label></span>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            <input type="submit" value="Submit">
+            <button type="submit" value="Submit"> Submit </button>
             </form>
             </div>
         </div>
