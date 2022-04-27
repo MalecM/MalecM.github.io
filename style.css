@@ -210,6 +210,18 @@ li{
         text-decoration: none;
 
     }
+    .mainWork2{
+        margin-top: 10px;
+        font-size: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-weight: 200;
+        color: #D62828;
+        line-height: 30px;
+        display: block;
+        text-decoration: none;
+
+    }
     .lilWork{
         margin-top: 10px;
         font-size: 20px;
@@ -217,6 +229,17 @@ li{
         margin-right: 0px;
         font-weight: 200;
         color: #1D3557;
+        line-height: 20px;
+        display: block;
+        text-decoration: none;
+    }
+    .lilWork2{
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-right: 0px;
+        font-weight: 200;
+        color: #D62828;
         line-height: 20px;
         display: block;
         text-decoration: none;
@@ -510,7 +533,7 @@ background: #F1FAEE;
         text-decoration: none;
         margin-bottom: 30px;
     }
-        .titleWork2{
+    .titleWork2{
         margin-top: 10px;
         font-size:40px;
         margin-left: 0px;
@@ -549,7 +572,28 @@ background: #F1FAEE;
         text-decoration: none;
 
     }
+        .mainWork2{
+        margin-top: 10px;
+        font-size: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-weight: 200;
+        line-height: 20px;
+        display: block;
+        text-decoration: none;
+
+    }
     .lilWork{
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-right: 0px;
+        font-weight: 200;
+        line-height: 25px;
+        display: block;
+        text-decoration: none;
+    }
+    .lilWork2{
         margin-top: 10px;
         font-size: 20px;
         margin-left: 40px;
